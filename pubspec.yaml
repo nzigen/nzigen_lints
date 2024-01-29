@@ -10,3 +10,13 @@ dependencies:
 
 topics:
   - lints
+
+repository: https://github.com/nzigen/nzigen_lints
+
+platforms:
+  ios:
+  android:
+  linux:
+  macos:
+  windows:
+  web:
