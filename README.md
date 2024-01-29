@@ -1,13 +1,13 @@
 ## Overview
 
-This package is a collection of lint rules for Flutter/Dart code designed to enhance code quality, maintainability, and adherence to best practices. 
+This package is a collection of lint rules recommended by Nzigen Inc. for Flutter/Dart code designed to enhance code quality, maintainability, and adherence to best practices. 
 These lint rules cover a broad spectrum of coding conventions, potential issues, and patterns that may impact the correctness and readability of your codebase.
 
 ## Usage
 
 ### 1. Installation
 
-in your terminal, run the following command:
+In your terminal, run the following command:
 ```shell
 dart pub add dev:nzigen_lints
 ```
@@ -36,7 +36,7 @@ linter:
   rules:
     # Add your custom lint rules here
 
-    # The following code are examples to customize the lint rules:
+    # The following code shows examples to customize the lint rules:
     # Prefer single quotes
     prefer_single_quotes: false
 
