@@ -1,12 +1,12 @@
 name: nzigen_lints
-description: Lint rules in mobile developer team in nzigen Inc.
+description: Lint rules in mobile developer team in Nzigen Inc.
 version: 1.0.0
 
 environment:
   sdk: ^3.0.0
 
 dependencies:
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.1
 
 topics:
   - lints

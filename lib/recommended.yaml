@@ -1,4 +1,4 @@
-include: package:lints/flutter.yaml
+include: flutter_lints/recommended.yaml
 
 linter:
   rules:
