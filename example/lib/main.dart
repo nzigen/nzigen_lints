@@ -17,18 +17,34 @@ void main() {
   print('$partOne $partTwo'); // ignore: avoid_print
 }
 
-abstract class Base {
-  int methodA(int foo);
-  String methodB(String foo);
-}
-
-// Normally, the parameter renaming from `foo` to `bar` in this class would
-// trigger the `avoid_renaming_method_parameters` lint, but it has been
-// deactivated for the file with the `ignore_for_file` comment above.
-class Sub extends Base {
+// You can see some warnings in the following code.
+// Other lints are described in recommended.yaml.
+class TestClass {
   @override
   int methodA(int bar) => bar;
 
   @override
   String methodB(String bar) => bar;
+
+  void testAnalysisIsWorking(Color color) {
+    // Show a warning cause of no_default_cases from IDE.
+    switch (color) {
+      case Color.red:
+        print('Red');
+        break;
+      default:
+        break;
+    }
+    // Unnesasary brace in string interps.
+    final str = 'Hello';
+    print("str: ${str}");
+
+    // Use if-null operators to covert nulls to bools.
+    final bool? isTrue = true;
+    if (isTrue == true) {
+      print('true');
+    }
+  }
 }
+
+enum Color { red, green, blue }

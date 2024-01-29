@@ -1,0 +1,16 @@
+## TODO: After test, check and modify the following comments.
+name: example
+description: A project that showcases how to enable the Nzigen-Inc.-recommended lints for Flutter apps, packages, and plugins.
+
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# Add the latest version of `package:flutter_lints` as a dev_dependency. The
+# lint set provided by this package is activated in the `analysis_options.yaml`
+# file located next to this `pubspec.yaml` file.
+dev_dependencies:
+#  nzigen_lints: ^1.0.0  # Check https://pub.dev/packages/flutter_lints for latest version number.
+  nzigen_lints:
+    path: ../
