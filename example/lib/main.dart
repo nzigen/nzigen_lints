@@ -20,12 +20,6 @@ void main() {
 // You can see some warnings in the following code.
 // Other lints are described in recommended.yaml.
 class TestClass {
-  @override
-  int methodA(int bar) => bar;
-
-  @override
-  String methodB(String bar) => bar;
-
   void testAnalysisIsWorking(Color color) {
     // Show a warning cause of no_default_cases from IDE.
     switch (color) {
