@@ -1,39 +1,63 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+## Overview
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+This package is a collection of lint rules for Flutter/Dart code designed to enhance code quality, maintainability, and adherence to best practices. 
+These lint rules cover a broad spectrum of coding conventions, potential issues, and patterns that may impact the correctness and readability of your codebase.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+### 1. Installation
 
-```dart
-const like = 'sample';
+in your terminal, run the following command:
+```shell
+dart pub add dev:nzigen_lints
 ```
 
-## Additional information
+or add the following to your `pubspec.yaml` file:
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dev_dependencies:
+  nzigen_lints: ^1.0.0
+```
+
+### 2. Configuration
+Add the following to your `analysis_options.yaml` file:
+
+```yaml
+include: package:nzigen_lints/recommended.yaml
+```
+
+### 3. Customization
+If you want to customize the lint rules, you can add the following to your `analysis_options.yaml` file:
+
+```yaml
+include: package:nzigen_lints/recommended.yaml
+
+linter:
+  rules:
+    # Add your custom lint rules here
+
+    # The following code are examples to customize the lint rules:
+    # Prefer single quotes
+    prefer_single_quotes: false
+
+    # Use interpolation to compose strings
+    prefer_interpolation_to_compose_strings: false
+
+    # Use curly braces in flow control structures
+    curly_braces_in_flow_control_structures: false
+  
+```
+
+### Contributors
+
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Kate941-su>
+            <img src=https://avatars.githubusercontent.com/u/62321671?v=4 width="100;"  alt=Kate941-su/>
+            <br />
+            <sub style="font-size:14px"><b>Kaito Kitaya</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
