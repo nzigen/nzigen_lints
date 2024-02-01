@@ -16,7 +16,7 @@ or add the following to your `pubspec.yaml` file:
 
 ```yaml
 dev_dependencies:
-  nzigen_lints: ^1.0.0
+  nzigen_lints: ^1.0.2
 ```
 
 ### 2. Configuration
