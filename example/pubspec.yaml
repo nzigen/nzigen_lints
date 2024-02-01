@@ -10,5 +10,6 @@ environment:
 # lint set provided by this package is activated in the `analysis_options.yaml`
 # file located next to this `pubspec.yaml` file.
 dev_dependencies:
+  flutter_lints: ^3.0.1
   nzigen_lints:
-    path: ..
+    path: ../

@@ -1,5 +1,9 @@
 ## 1.0.2
 
+* fix to valid include path in recommended.yaml
+
+## 1.0.2
+
 * fix invalid include path in recommended.yaml
 
 ## 1.0.1
