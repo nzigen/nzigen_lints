@@ -11,4 +11,5 @@ environment:
 # file located next to this `pubspec.yaml` file.
 dev_dependencies:
   flutter_lints: ^3.0.1
-  nzigen_lints: ^1.0.3
+  nzigen_lints:
+    path: ..

@@ -1,6 +1,6 @@
 name: nzigen_lints
 description: Lint rules in mobile developer team in Nzigen Inc. Not only in our company, but also in your team, you can use this lints.
-version: 1.0.3
+version: 1.0.4
 
 environment:
   sdk: ^3.0.0

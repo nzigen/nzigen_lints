@@ -1,4 +1,8 @@
-## 1.0.2
+## 1.0.4
+
+* remove invalid lint rules
+
+## 1.0.3
 
 * fix to valid include path in recommended.yaml
 
